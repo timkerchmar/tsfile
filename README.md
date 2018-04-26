@@ -59,5 +59,6 @@ WinMain(HINSTANCE hCurrentInst, HINSTANCE hPreviousInst,
 
 ```
     unsigned int fileSize;
-    printf("README.md:\n\n%s\n", TSFile::getBytes("README.md", fileSize, true /* result should be a C string */ ));
+    printf("README.md:\n\n%s\n", TSFile::getBytes("README.md", fileSize, 
+        true /* result should be a C string */ ));
 ```
