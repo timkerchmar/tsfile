@@ -9,7 +9,7 @@ Add the source cpp and header files to your project. Initialize the asset manage
 ```cpp
 #include "TSFile.h"
 
-void android_main(struct android_app* state)
+void android_main(struct android_app* app)
 {
     TSFile::assetManager = app->activity->assetManager;
     TSFile::writeablePath = app->activity->internalDataPath;
