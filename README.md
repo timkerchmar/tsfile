@@ -58,6 +58,6 @@ WinMain(HINSTANCE hCurrentInst, HINSTANCE hPreviousInst,
 ## Usage
 
 ```
-	unsigned int fileSize;
+    unsigned int fileSize;
     printf("README.md:\n\n%s\n", TSFile::getBytes("README.md", fileSize));
 ```
