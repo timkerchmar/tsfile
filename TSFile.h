@@ -5,7 +5,7 @@
 #include <android/asset_manager.h>
 #endif
 
-class unsigned TSFile 
+class TSFile 
 {
 public:
 #ifdef ANDROID
