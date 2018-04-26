@@ -4,6 +4,8 @@ Consistent file system access for Android, iOS, OSX, and Windows.
 
 ## Android Setup
 
+Add the source cpp and header files to your project. Initialize the asset manager and writeable path as early as possible.
+
 ```cpp
 #include "TSFile.h"
 
@@ -14,6 +16,8 @@ void android_main(struct android_app* state)
 ```
 
 ## iOS Setup
+
+Add the source cpp and header files to your project. Initialize the packaging path and writeable path as early as possible.
 
 ```objectivec
 #include "TSFile.h"
@@ -26,6 +30,8 @@ void android_main(struct android_app* state)
 
 ## OSX Setup
 
+Add the source cpp and header files to your project. Initialize the packaging path and writeable path as early as possible.
+
 ```objectivec
 #include "TSFile.h"
 
@@ -37,7 +43,11 @@ void android_main(struct android_app* state)
 
 ## Windows Setup
 
-Windows does not provide app packaging. Here's some tips for choosing where to place your game data:
+Add the source cpp and header files to your project. Initialize the packaging path and writeable path as early as possible.
+
+However... Windows does not actually provide app packaging. 
+
+Here's some tips for choosing where to place your game data:
 
 * Use relative paths. 
 * Don't add a trailing slash to the path.
